@@ -1,0 +1,8 @@
+[package]
+name = "tick-engine"
+version = "0.1.0"
+edition = "2021"
+description = "Temporal coordination — tick clock with BPM adaptation, swing, and T-minus event scheduling"
+license = "MIT"
+
+[dependencies]
