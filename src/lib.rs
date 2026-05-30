@@ -90,7 +90,7 @@ impl Tempo {
         let energy = energy.clamp(0.0, 1.0);
         // Map energy 0→-20% change, energy 1→+20% change
         let factor = 1.0 + (energy - 0.5) * 0.4;
-        self.bpm = self.bpm * factor;
+        self.bpm *= factor;
         self.clamp();
     }
 
